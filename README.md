@@ -25,8 +25,8 @@ You can download the source files (under `src/`), and add them to your project (
 The most easier thing is to use github as a CDN, so you don't have to donwload the files. Just add that to your project:
 
 ```html
-    <link rel="stylesheet" href="css/day-heatmap.min.css">
-    <script src="js/day-heatmap.min.js"></script>
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/CorentinTh/day-heatmap/master/src/day-heatmap.min.js">
+    <script src="https://raw.githubusercontent.com/CorentinTh/day-heatmap/master/src/day-heatmap.min.js"></script>
 ```
 
 ## Make it works
@@ -63,8 +63,8 @@ Here is a working exemple with all the functionnalities:
 <head>
     <meta charset="utf-8">
     <title>Heatmap</title>
-
-    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/CorentinTh/day-heatmap/master/src/day-heatmap.min.js">
 
     <!-- Just for styling purpose -->
     <style>
@@ -82,7 +82,7 @@ Here is a working exemple with all the functionnalities:
 
 <!-- First jQuery -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="day-heatmap.js"></script>
+<script src="https://raw.githubusercontent.com/CorentinTh/day-heatmap/master/src/day-heatmap.min.js"></script>
 <script>
     var dummyData = [{timestamp: 738221588, value: 34}, {timestamp: 455091188, value: 85}, {timestamp: 1006992511, value: 61}, {timestamp: 374216407, value: 96}, {timestamp: 557060294, value: 39}, {timestamp: 1088268560, value: 45}, {timestamp: 790274681, value: 95}, {timestamp: 924184922, value: 46}, {timestamp: 16227933, value: 47}];
 
