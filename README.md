@@ -4,7 +4,7 @@
 
 `day-heatmap.js` is a simple library to create responsive github like heatmap to display data on a scale of a day.
 
-Try it: [live demo](http://divers.corentin-thomassset.fr/day-heatmap/).
+Try it: [live demo](http://divers.corentin-thomasset.fr/day-heatmap/).
 
 ## Setup
 It's composed of a javascript and a css file.
