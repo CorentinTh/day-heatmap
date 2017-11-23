@@ -48,8 +48,6 @@ var DayHeatmap = function (element, options) {
     this._options = options;
     this._element = (element.charAt(0) == '#' ? '' : '#') + element;
 
-    console.log(this.element);
-
     var days = ["Mo", "Tu", "We", "Th", "Fr", "Sa", "Su"];
 
 
@@ -104,7 +102,6 @@ var DayHeatmap = function (element, options) {
 
         var that = this;
         var max = Math.max.apply(Math,data.map(function(o){return o.value;}));
-        console.log(max);
         data.forEach(function (data) {
             //$(data.element).addClass("color" + Math.floor(this._map(data.value, 0, data[0].value, 0, 4)));
             if(data.value == 0) return;
